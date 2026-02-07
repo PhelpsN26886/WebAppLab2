@@ -1,0 +1,147 @@
+:root {
+    --jbu-dark-blue: #003767;
+    --jbu-light-blue: #009DDC;
+    --jbu-gold: #FFC72C;
+    --neutral-light: #F9F9F9;
+    --neutral-mid: #CCCCCC;
+    --text-dark: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--neutral-light);
+    color: var(--text-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: var(--jbu-dark-blue);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--jbu-gold);
+    width: 100%;
+}
+
+.nav-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: var(--jbu-light-blue);
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--neutral-mid);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--jbu-light-blue);
+    color: white;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+#guest-performer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #eef6fb;
+}
+
+.guest-perfomer-card {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid var(--neutral-mid);
+}
+
+.guest-performer-card h3 {
+    color: var(--jbu-dark-blue);
+}
+
+.guest-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: var(--jbu-dark-blue);
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--neutral-mid);
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--jbu-gold);
+    color: var(--jbu-dark-blue);
+    border: none;
+}
+
+button:hover {
+    background-color: var(--jbu-light-blue);
+    color: white;
+}
+
+footer {
+    background-color: var(--jbu-dark-blue);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
