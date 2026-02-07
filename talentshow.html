@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Talent Show!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="https://www.clipartmax.com/png/middle/224-2244337_shield-logo-john-brown-university-png.png" href="favicon.png">
+
+</head>
+
+<body>
+
+<header id="top">
+    <h1>Annual John Brown University Talent Show!</h1>
+</header>
+
+<nav>
+    <ul class="nav-links">
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="schedule">
+    <h2>Event Schedule</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>6:00 PM</td>
+                <td>Doors Open</td>
+            </tr>
+            <tr>
+                <td>6:30 PM</td>
+                <td>Opening Remarks</td>
+            </tr>
+            <tr>
+                <td>6:35 PM</td>
+                <td>Act 1: Campus A Cappella Group</td>
+            </tr>
+            <tr>
+                <td>6:45 PM</td>
+                <td>Performance Block 1:<br>Act 2: Stand-up Comedian<br>Act 3: Solo Singer<br>Act 4: Hip-Hop Dance Crew</td>
+            </tr>
+            <tr>
+                <td>7:25 PM</td>
+                <td>Intermission</td>
+            </tr>
+            <tr>
+                <td>7:35 PM</td>
+                <td>Performance Block 2:<br>Act 5: Magic Act<br>Act 6: Spoken Word Poetry<br>Act 7: Cultural Dance Performance</td>
+            </tr>
+            <tr>
+                <td>8:05 PM</td>
+                <td>Judges' Deliberation/Audience Trivia</td>
+            </tr>
+            <tr>
+                <td>8:15 PM</td>
+                <td>Performance from the 2025 Talent Show Winner!</td>
+            </tr>
+            <tr>
+                <td>8:25 PM</td>
+                <td>Awards</td>
+            </tr>
+            <tr>
+                <td>8:35 PM</td>
+                <td>Closing Remarks</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="guest-performer">
+    <h2>2025 Talent Show Winner</h2>
+
+    <article class="guest-performer-card">
+        <img src="https://advocate.jbu.edu/hubfs/TalentShow_Photos_2025-10%202.webp" width="600" alt="2025 Winner">
+        <h3>The Martin Bros!</h3>
+        <p>Piano and Accordian Performance</p>
+    </article>
+</section>
+
+<section id="register">
+    <h2>Purchase Tickets</h2>
+
+    <form id="ticket-form">
+        <label for="buyer-name">Full Name:</label>
+        <input type="text" id="buyer-name" name="buyer-name" required>
+
+        <label for="buyer-email">Email Address:</label>
+        <input type="email" id="buyer-email" name="buyer-email" required>
+
+        <label for="ticket-type">Ticket Type:</label>
+        <select id="ticket-type" name="ticket-type">
+            <option value="general">General Admission - $2</option>
+            <option value="student">Student Admission - $1</option>
+            <option value="vip">Child Admission - $1</option>
+        </select>
+
+        <label for="quantity">Number of Tickets:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+        <button type="submit">Purchase Tickets</button>
+    </form>
+</section>
+
+
+<footer id="contact">
+    <p>Contact Us: talentshow@jbu.edu<br>(479) 866-2211</p>
+</footer>
+
+</body>
+</html>
